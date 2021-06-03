@@ -470,7 +470,7 @@ table a, #comments a{background-color:inherit;}
 	#footer{}
 
 	#copyright{}
-	#copyright p:first-of-type{margin-bottom:50px;}
+	#copyright p:first-of-type{margin-bottom:100px;}
 }
 
 @media screen and (max-width:750px){
