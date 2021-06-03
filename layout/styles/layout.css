@@ -514,13 +514,3 @@ table a, #comments a{background-color:inherit;}
 
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width:500px){
-	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
-	.scrollable table{margin:0; padding:0; white-space:nowrap;}
-
-	.inline li{display:block; margin-bottom:10px;}
-	.pushright li{margin-right:0;}
-
-	.font-x2{font-size:1.6rem;}
-	.font-x3{font-size:1.8rem;}
-}
