@@ -58,18 +58,18 @@ File: Layout CSS
 
 #pageintro article, #pageintro article p{display:block; max-width:75%; margin:0 auto; text-align:center;}
 #pageintro article p{max-width:65%; line-height:2rem;}
-#pageintro .heading{margin-bottom:20px; font-size:4rem;}
-#pageintro footer{margin-top:50px;}
+#pageintro .heading{margin-bottom:15px; font-size:4rem;}
+#pageintro footer{margin-top:15px;}
 
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0;}
+.container{padding:50px 0;}
 
 /* Content */
 .container .content{}
 
-.sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
+.sectiontitle{display:block; max-width:55%; margin:0 auto 20px; text-align:center;}
 .sectiontitle *{margin:0;}
 
 /* Introblocks - x3 */
@@ -333,7 +333,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#b57675 !important;}
 
 /* Rows */
 .row0{color:#FFFFFF; background-color:#161C21;}
-.row1{color:#FFFFFF; background-color:#724443a9;}
+.row1{color:#FFFFFF; background-color:#cf9b97;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#A5A6AA; background-color:#000000;}
@@ -438,11 +438,11 @@ table a, #comments a{background-color:inherit;}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:1140px){
-	.hoc{max-width:1140px;}
+@media screen and (min-width:900px){
+	.hoc{max-width:900px;}
 }
 
-@media screen and (min-width:978px) and (max-width:1140px){
+@media screen and (min-width:978px) and (max-width:900px){
 	.hoc{max-width:95%;}
 }
 
@@ -454,7 +454,7 @@ table a, #comments a{background-color:inherit;}
 
 	#topbar{}
 
-	#header{padding:30px 0;}
+	#header{padding:10px 0;}
 	#header #logo{margin-top:0;}
 
 	#mainav{}
@@ -474,7 +474,7 @@ table a, #comments a{background-color:inherit;}
 }
 
 @media screen and (max-width:750px){
-	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+	.imgl, .imgr{display:inline-block; float:none; margin:0 0 15px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0;}
