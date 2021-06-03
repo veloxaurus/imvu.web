@@ -438,8 +438,8 @@ table a, #comments a{background-color:inherit;}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:900px){
-	.hoc{max-width:900px;}
+@media screen and (min-width:1000px){
+	.hoc{max-width:1000px;}
 }
 
 @media screen and (min-width:978px) and (max-width:900px){
@@ -470,7 +470,7 @@ table a, #comments a{background-color:inherit;}
 	#footer{}
 
 	#copyright{}
-	#copyright p:first-of-type{margin-bottom:10px;}
+	#copyright p:first-of-type{margin-bottom:50px;}
 }
 
 @media screen and (max-width:750px){
