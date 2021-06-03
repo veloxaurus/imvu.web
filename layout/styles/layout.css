@@ -64,12 +64,12 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0;}
+.container{padding:25px 0;}
 
 /* Content */
 .container .content{}
 
-.sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
+.sectiontitle{display:block; max-width:40%; margin:0 auto 25px; text-align:center;}
 .sectiontitle *{margin:0;}
 
 /* Introblocks - x3 */
